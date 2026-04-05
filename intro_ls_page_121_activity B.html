@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>intro_ls_page_121_activity B</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: larger;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 1em;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    main {
+      max-width: 600px;
+      background: white;
+      padding: 1.5em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      background: none;
+      border: 2px solid #0078d4;
+      color: #0078d4;
+      font-size: 20px;
+      margin: 5px;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover:not(:disabled) {
+      background-color: #0078d4;
+      color: white;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    input[type="number"] {
+      font-size: 14px;
+      width: 60px;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    #keyWords {
+      text-align: center;
+      color: #0078d4;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    #english {
+      color: #444;
+    }
+
+    #q {
+      background: #0078d4;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      margin-top: 1em;
+      text-align: center;
+    }
+
+    details {
+      margin-top: 0.5em;
+    }
+
+    small {
+      color: #777;
+      font-weight: normal;
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 1em 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    footer span {
+      color: #0078d4;
+      font-weight: bold;
+    }
+
+    section.general.info,
+    section.activity {
+      width: 100%;
+      max-width: 600px;
+      box-sizing: border-box;
+    }
+
+    section.general.info details,
+    section.activity details {
+      display: block;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      margin: 0.5em 0;
+    }
+
+    section.general.info details summary,
+    section.activity details summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #0078d4;
+      margin-bottom: 10px;
+    }
+
+    section.general.info details summary::-webkit-details-marker,
+    section.activity details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9em;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 0.6em;
+      }
+      #q { font-size: 0.9em; }
+      button { font-size: 18px; padding: 4px 8px; }
+    }
+    #objectives{
+      color: red;
+    }
+    #questionBasedOnAudio{
+      color: blue;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="general info">
+    <details id="table1">
+      <summary>General Information</summary>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>Teacher's Name & ID</th>
+            <th>Track & Strand</th>
+            <th>Section & Room Number & Building</th>
+            <th>Timetable</th>
+          </tr>
+          <tr>
+            <td>Eltayeb Mohamed<br>M2036651</td>
+            <td>English 101<br>Q SKILLS INTRO - Listening & Speaking</td>
+            <td>Section 66740<br>G201<br>Science Building</td>
+            <td>Sunday to Thursday<br>Session 1: 9:00–10:15<br>Session 2: 10:35–11:50</td>
+          </tr>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="activity">
+    <details id="table2">
+      <summary>Page 121 - Activity B</summary>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>Description of Activity</th>
+            <th>Type of Interaction</th>
+            <th>Assessment</th>
+            <th>Feedback</th>
+          </tr>
+          <tr>
+            <td>Students listen to excerpts from the audio on page 121, then answer comprehension questions.</td>
+            <td>T-Ss<br>Ss-Ss</td>
+            <td>
+              <p>
+                The students are assessed based on their ability to <br> recall answers given by their classmates.<br> answer the unit question correctly.<br>
+                The students are assessed based on their ability to recall answers given by Yuna, Sophy, Marcus, and Fleix. <br>
+                The studets say where they to want to travel
+              </p>
+              </td>
+            <td>
+              <p>Self-Correction<br>Peer Correction<br>ICQs<br>CCQs<br>Elicitation</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <main>
+    <p  id="instructions"> Instructions:<br><br>
+      Listen to the conversation between the teacher, Felix, Marcus, Yuna, and Sophy. <br>
+      Listen for information to help you answer the unit questions.
+    </p>
+    <p><br>Students will be able to:</p>
+    <p id="objectives">
+      Listen and answer comprehenstion questions.
+    </p>
+
+    <p id="speaker"></p>
+    <p id="q"></p>
+    <p id="keyWords"></p>
+
+    <details id="definition">
+      <summary>Definition</summary>
+      <p id="def"></p>
+    </details>
+
+    <details id="illustrations" style="display:none;">
+      <summary>Illustration</summary>
+      <img id="image" alt="Illustration" width="200" height="200" style="display:none;">
+    </details>
+
+    <details id="englishDetails">
+      <summary>Audio Script</summary>
+      <p id="english"></p>
+    </details>
+
+    <details id="arabicDetails">
+      <summary>Arabic</summary>
+      <p id="arabic"></p>
+    </details>
+
+    <!-- Dynamic labels -->
+    <p id="refer_to_container"><strong>Refer to:</strong> <span id="refer_to"></span></p>
+    <p id="back_to_container"><strong>Back to:</strong> <span id="back_to"></span></p>
+
+    <audio id="audio" controls>
+      <source src="" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+    <hr>
+
+    <div class="controls">
+      <input type="number" id="audioIndex" min="1" placeholder="#" />
+      <button id="search">&#128269;</button>
+      <button id="prev">&#9664;</button>
+      <button id="next">&#9654;</button>
+      <label>
+        <input type="checkbox" id="autoPlay" checked />
+        Auto play next audio clip
+      </label>
+      <p id="questionBasedOnAudio"></p>
+    </div>
+
+    <div>
+      <details id="answerDetails">
+        <summary>Answer</summary>
+        <p id="answer"></p>
+      </details>
+    </div>
+    <hr>
+
+    <small>💡 Tip: Use ← / → to navigate.</small>
+  </main>
+
+  <footer>
+    <p>Created by <span>Eltayeb Mohamed</span> | <span>© 2025 Eltayeb Mohamed</span>. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const utterance = new SpeechSynthesisUtterance();
+    let currentAudioIndex = 0;
+
+    const Sentences = [
+      // 1
+
+      {
+        speaker: `Teacher and Students`,
+        keyWord: ``,
+        definition: ``,
+        english: `Q3eSE_LS0_U07_01_QClassroom`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Q3eSE_LS0_U07_01_QClassroom.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 2
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `The Unit Question is:`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `The Unit Question is.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 3
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Where do you want to travel?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Where do you want to travel.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      //4
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `How about you, Felix?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `How about you, Felix.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 5
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `What city do you want to visit and why?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `What city do you want to visit and why.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 6
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `What city do you want to visit?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `What city do you want to visit.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 7
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `and why?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `and why.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 8
+      {
+        speaker: `Felix:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I want to go to Barcelona because the buildings there are very different.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I want to go to Barcelona because the buildings there are very different.mp3`,
+        audioQuestion: `Why does Felix want to visit Barcelona?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 9
+      {
+        speaker: `Felix:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I want to go to Barcelona`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I want to go to Barcelona.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+       // 10
+      {
+        speaker: `Felix:`,
+        keyWord: ``,
+        definition: ``,
+        english: `because the buildings there are very different.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `because the buildings there are very different.mp3`,
+        audioQuestion: `Why does Felix want to go to Barcelona?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 11
+      {
+        speaker: `Felix:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I like to see unusual buildings.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I like to see unusual buildings.mp3`,
+        audioQuestion: ``,
+        answer: `What does Felix like to see?`,
+        Image:`.jpg`
+      },
+      // 12
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Yes, nice buildings can make a city very interesting`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Yes, nice buildings can make a city very interesting.mp3`,
+        audioQuestion: `What makes a city interesting?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 13
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Yes`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Yes.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 14
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `nice buildings can make a city very interesting`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `nice buildings can make a city very interesting.mp3`,
+        audioQuestion: `What makes a city very interesting?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      // 15
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Where do you want to travel, Sophy?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Where do you want to travel, Sophy.mp3`,
+        audioQuestion: `Where does Sophy want to travel?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I enjoy cities with a lot of history, like nice museums.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I enjoy cities with a lot of history, like nice museums.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I enjoy cities with a lot of history.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I enjoy cities with a lot of history.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `like nice museums.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `like nice museums.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Some cities also have a lot of gardens.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Some cities also have a lot of gardens.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I like that very much.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I like that very much.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `So I want to visit Paris.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `So I want to visit Paris.mp3`,
+        audioQuestion: `Why does Sophy want to go to Paris?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Marcus, where would you like to go.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Marcus, where would you like to go.mp3`,
+        audioQuestion: `Where does Marcus want to travel?`,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Marcus:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I want to go to Tokyo.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I want to go to Tokyo.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Marcus:`,
+        keyWord: ``,
+        definition: ``,
+        english: `I like a city with good restaurants and a lot of places to see.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `I like a city with good restaurants and a lot of places to see.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      }, 
+      {
+        speaker: `Sophy:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Some cities also have a lot of gardens.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Some cities also have a lot of gardens.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      }, 
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `So, it sounds like all of you want to visit big cities.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `So, it sounds like all of you want to visit big cities.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `How about you, Yuna.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `How about you, Yuna.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Do you think a small town can be interesting?`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Do you think a small town can be interesting.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Yuna:`,
+        keyWord: ``,
+        definition: ``,
+        english: `Yes. My favorite place to visit is a small town in the mountains.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Yes. My favorite place to visit is a small town in the mountains.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Yuna:`,
+        keyWord: ``,
+        definition: ``,
+        english: `It’s next to a lake and it’s very beautiful.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `It’s next to a lake and it’s very beautiful.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Teacher:`,
+        keyWord: ``,
+        definition: ``,
+        english: `That sounds nice.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `That sounds nice.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Role-Play:`,
+        keyWord: `Felix Role-Play`,
+        definition: ``,
+        english: `That sounds nice.`,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `role_play_felix.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Role-Play:`,
+        keyWord: `Sophy Role-Play`,
+        definition: ``,
+        english: ``,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `role_play_sophy.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Role-Play:`,
+        keyWord: `Marcus Role-Play`,
+        definition: ``,
+        english: ``,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `role_play_marcus.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      {
+        speaker: `Role-Play:`,
+        keyWord: `Yuna Role-Play`,
+        definition: ``,
+        english: ``,
+        arabic: ``,
+        refer_to: ``,
+        back_to: ``,
+        audio: `Role-Play_Yuna.mp3`,
+        audioQuestion: ``,
+        answer: ``,
+        Image:`.jpg`
+      },
+      
+      
+      
+
+      
+      
+
+      
+      
+      
+
+      
+      
+           
+      
+    ];
+
+    const q = document.getElementById("q");
+    const refer_to = document.getElementById("refer_to");
+    const back_to = document.getElementById("back_to");
+    const speaker = document.getElementById("speaker");
+    const keyWords = document.getElementById("keyWords");
+    const def = document.getElementById("def");
+    const english = document.getElementById("english");
+    const arabic = document.getElementById("arabic");
+    const audio = document.getElementById("audio");
+    const image = document.getElementById("image");
+    const illustrationDetails = document.getElementById("illustrations");
+    const questionBasedOnAudio = document.getElementById("questionBasedOnAudio");
+    const audioIndexInput = document.getElementById("audioIndex");
+    const autoPlayCheckbox = document.getElementById("autoPlay");
+
+    const definitionDetails = document.getElementById("definition");
+    const englishDetails = document.getElementById("englishDetails");
+    const arabicDetails = document.getElementById("arabicDetails");
+    const answer = document.getElementById("answer");
+    const answerDetails = document.getElementById("answerDetails");
+    const prevBtn = document.getElementById("prev");
+    const nextBtn = document.getElementById("next");
+
+    function updateButtonState() {
+      prevBtn.disabled = currentAudioIndex === 0;
+      nextBtn.disabled = currentAudioIndex === Sentences.length - 1;
+    }
+
+    function displayData() {
+      const s = Sentences[currentAudioIndex];
+
+      q.textContent = `${currentAudioIndex + 1}/${Sentences.length}`;
+      refer_to.textContent = s.refer_to || "";
+      back_to.textContent = s.back_to || "";
+
+      // Toggle label visibility
+      const referToContainer = document.getElementById("refer_to_container");
+      const backToContainer = document.getElementById("back_to_container");
+      referToContainer.style.display = s.refer_to?.trim() ? "block" : "none";
+      backToContainer.style.display = s.back_to?.trim() ? "block" : "none";
+
+      keyWords.textContent = s.keyWord || "";
+      speaker.textContent = s.speaker || "";
+      def.textContent = s.definition || "";
+      english.textContent = s.english || "";
+      arabic.textContent = s.arabic || "";
+      audio.src = s.audio || "";
+      answer.textContent = s.answer || "";
+      questionBasedOnAudio.textContent = s.audioQuestion || "";
+
+      // Show or hide detail sections
+      answerDetails.style.display = s.answer?.trim() ? "block" : "none";
+      definitionDetails.style.display = s.definition?.trim() ? "block" : "none";
+      englishDetails.style.display = s.english?.trim() ? "block" : "none";
+      arabicDetails.style.display = s.arabic?.trim() ? "block" : "none";
+
+      // ✅ Always show image if source exists
+      if (s.Image && s.Image.trim() !== "" && s.Image !== ".jpg") {
+        image.src = s.Image;
+        image.style.display = "block";
+        illustrationDetails.style.display = "block";
+      } else {
+        image.removeAttribute("src");
+        image.style.display = "none";
+        illustrationDetails.style.display = "none";
+      }
+
+      updateButtonState();
+    }
+
+    function resetDetails() {
+      definitionDetails.open = false;
+      englishDetails.open = false;
+      arabicDetails.open = false;
+      answerDetails.open = false;
+    }
+
+    function nextSentence() {
+      if (currentAudioIndex < Sentences.length - 1) {
+        currentAudioIndex++;
+        displayData();
+        resetDetails();
+        if (autoPlayCheckbox.checked) audio.play().catch(() => {});
+      }
+    }
+
+    function prevSentence() {
+      if (currentAudioIndex > 0) {
+        currentAudioIndex--;
+        displayData();
+        resetDetails();
+        if (autoPlayCheckbox.checked) audio.play().catch(() => {});
+      }
+    }
+
+    nextBtn.addEventListener("click", nextSentence);
+    prevBtn.addEventListener("click", prevSentence);
+
+    document.getElementById("search").addEventListener("click", () => {
+      const index = parseInt(audioIndexInput.value, 10) - 1;
+      if (index >= 0 && index < Sentences.length) {
+        currentAudioIndex = index;
+        displayData();
+      } else {
+        alert(`Enter a number between 1 and ${Sentences.length}`);
+      }
+    });
+
+    audioIndexInput.addEventListener("keydown", e => {
+      if (e.key === "Enter") document.getElementById("search").click();
+    });
+
+    document.addEventListener("keydown", e => {
+      if (e.key === "ArrowRight") nextSentence();
+      if (e.key === "ArrowLeft") prevSentence();
+    });
+
+    displayData();
+  </script>
+</body>
+</html>
